@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<title>Pedra, papel e tesoura</title>
+  	<link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="imagex/png" href="logoppt.png"/>
+  </head>
+  <img src="logoppt.png" alt="imagem da logo" id="logo">
+  <body>
+  	<div id="principal">
+  		<h1 id="titulo">Pedra, papel e tesoura</h1>
+  		<div id="divprincipal">
+        <div id="player">
+  				<h2 id="nomejogador">Jogador</h2>
+  				<span id="mensagemjogador">Tira o óculos pra ver direito 🤝🏻</span>
+            <ul id="vezdojogador">
+              <li><a id="vezdojogador-1" onclick="comecar(1)"><img src="pedra.png"></a></li>
+              <li><a id="vezdojogador-2"><img src="papel.png" onclick="comecar(2)"></a></li>
+              <li><a id="vezdojogador-3"><img src="tesoura.png" onclick="comecar(3)"></a></li>
+            </ul>
+        </div>
+        <div id="contra">VS</div>
+        <div id="maquina">
+          <h2 id="nomemaquina">Computador</h2>
+          <span id="mensagemmaquina">Quero ver me vencer, haha 😎</span>
+          <ul id="vezdamaquina">
+            <li><a id="vezdamaquina-1"><img src="pedra.png"></a></li>
+            <li><a id="vezdamaquina-2"><img src="papel.png"></a></li>
+            <li><a id="vezdamaquina-3"><img src="tesoura.png"></a></li>
+          </ul>
+        </div>
+    </div>
+    <script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+    </script>
+  </body>
+</html>

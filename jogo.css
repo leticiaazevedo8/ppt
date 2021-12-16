@@ -1,0 +1,127 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+}
+
+#logo {
+  height: 110px;
+  width: 110px;
+  border-radius: 80px;
+}
+
+#titulo {
+  color: white;
+  text-align: center;
+  border: 10px solid black;
+  border: 3px solid white;
+  border-radius: 20px;
+}
+
+body {
+  background-color: DarkSlateGray;
+/*  max-width: 1000px;
+  margin: auto;*/
+  cursor: pointer;
+}
+
+#divprincipal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#player, #maquina {
+  position: relative;
+  flex-grow: 1;
+  border-radius: 5px;
+  width: 200px;
+  padding: 20px;
+  color: darkcyan;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#player {
+  background-color: lightseagreen;
+  color: white;
+  padding: 30px;
+  width: 180px;
+  border-radius: 15px;
+  border: 3px solid white;
+}
+
+#maquina {
+  background-color: #a29bfe;
+  color: white;
+  padding: 30px;
+  width: 180px;
+  border-radius: 15px;
+  border: 3px solid white;
+}
+
+#contra {
+  color: white;
+  font-size: 40px; 
+  text-align: center;
+  width: 70px;
+}
+
+#nomejogador, #nomemaquina {
+  margin: 0;
+}
+
+#nomejogador {
+  text-align: left;
+}
+
+#nomemaquina {
+  text-align: right;
+}
+
+#mensagemjogador, #mensagemmaquina {
+  position: absolute;
+  top: 8px;
+  font-size: 15px;
+}
+
+#mensagemjogador {
+  right: 20px;
+}
+
+#mensagemmaquina {
+  left: 20px;
+}
+
+ul#vezdojogador, ul#vezdamaquina {
+  text-align: center;
+  list-style: None;
+  margin: 0;
+  padding: 0;
+}
+
+ul#vezdojogador li, ul#vezdamaquina li {
+  display: inline;
+}
+
+ul#vezdojogador li a, ul#vezdamaquina li a {
+  opacity: 0.4;
+}
+
+ul#vezdojogador li a:hover, ul#vezdojogador li a.selecionado, ul#vezdamaquina li a.selecionado {
+  opacity: 1;
+}
+
+ul#vezdojogador li a img, ul#vezdamaquina li a img {
+  max-width: 60px;
+}
+
+/**#mensagens {
+  background-color: lightseagreen;
+  color: white;
+  border: 3px solid white;
+  font-size: 20px;
+  font-weight: 300px;
+  border-radius: 15px;
+  margin: 40px 0;
+  padding: 20px;
+}*/
